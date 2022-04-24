@@ -1,0 +1,7 @@
+.status_bar_alt{
+    background-color: #a8bece;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}

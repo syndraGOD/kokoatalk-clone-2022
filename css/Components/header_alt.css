@@ -1,0 +1,29 @@
+.header_alt{
+    background-color: #a8bece;
+    position: fixed;
+    top: 25px; /*status_bar: 12px*/
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+.header_alt div{
+    width: 33%;
+}
+.header_alt_text{
+    text-align: center;
+    font-size:x-large;
+    font-weight: 1000;
+}
+.header_alt_icon{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+.header_alt--li{
+    padding: 0px 10px;
+}

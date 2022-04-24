@@ -1,0 +1,94 @@
+.chatings_header_text{
+    font-size: 20px;
+}
+
+.chatings_body{
+    background-color: #a8bece;
+    height: 1000vh;
+    z-index: 0;
+} 
+.chatings_main{
+    margin-top: 60px;
+}
+.chatings_day{
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 25px;
+}
+.chatings_day span{
+    background-color: gray;
+    color: white;
+    opacity: 0.5;
+    font-size: 14px;
+    padding: 6px 14px;
+    border-radius: 15px;
+}
+
+.chatings_wbox_you{
+    width: 60vw;
+    text-align: start;
+}
+.chatings_wbox_me{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.chatings_you{
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+}
+
+
+.chatings_you span{
+}
+
+.chatings_you img{
+    width: 44px;
+    height: 44px;
+    border-radius: 18px;
+}
+.chatings_you_textbox{
+    display: inline-block;
+    margin-left: 8px;
+}
+.chatings_you_textbox h3{
+    margin-top: 4px;
+    font-size: 14px;
+    opacity: 0.6;
+}
+.chatings_you_textbox span{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 2px;
+    background-color: white;
+    opacity: 0.9;
+    padding: 8px 10px;
+    border-radius: 14px;
+    border-top-left-radius: 0;
+    font-size: 18px;
+    font-weight: 500;
+    opacity: 0.9;
+    
+}
+
+.chatings_me{
+    width: 60vw;
+    display: flex;
+    justify-content: flex-end;
+}
+.chatings_me_textbox span{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 2px;
+    background-color: yellow;
+    opacity: 0.9;
+    padding: 8px 10px;
+    border-radius: 14px;
+    border-top-right-radius: 0;
+    font-size: 18px;
+    font-weight: 500;
+    opacity: 0.9;
+    
+}

@@ -1,0 +1,45 @@
+
+.settings_listbox{
+    font-size: 21px;
+    font-weight: 500;
+    opacity: 0.8;
+}
+.settings_wbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 19px 0px;
+    
+}
+.settings_wbox_left{
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+.settings_wbox_right{
+    opacity: 0.55;
+}
+.settings_wbox i{
+    padding-left: 4px;
+    padding-right: 13px;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+}
+.settings_li{
+    position: relative;
+}
+.settings_borderbox{
+    margin: 18px 0px;
+    width: 100vw;
+    height: 1px;
+    background-color: rgba(0,0,0, 0.2);
+    margin-left: -18px;
+}
+.settings_badge{
+    margin-left: 8px;
+    width: 18px;
+    height: 18px;
+    font-size: 10px;
+}

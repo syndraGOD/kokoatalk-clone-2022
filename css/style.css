@@ -1,0 +1,43 @@
+@import "Components/reset.css";
+@import "var.css";
+
+
+@import "Components/user_profile.css";
+@import "Components/nav.css";
+@import "Components/status_bar.css";
+@import "Components/status_bar_alt.css";
+@import "Components/header.css";
+@import "Components/header_alt.css";
+@import "Components/badge.css";
+
+
+@import "welcome_header.css";
+@import "friends.css";
+@import "login-form.css";
+@import "chats.css";
+@import "find.css";
+@import "more.css";
+@import "settings.css";
+@import "chatings.css";
+.screen_main{
+  padding: 18px;
+}
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+  padding-left: 0px;
+}
+
+.emptybox_10{
+  width:100%;
+  height: 10px;
+}
+
+.emptybox_20{
+  width:100%;
+  height: 20px;
+}

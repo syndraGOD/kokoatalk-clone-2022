@@ -1,0 +1,31 @@
+.screen_header{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.screen_header--text{
+    padding-left: 15px;
+    font-size:x-large;
+    font-weight: 1000;
+}
+
+.screen_header--ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+.screen_header--li{
+    padding: 0px 15px;
+}
+
+.badge_controlbox{
+    position: relative;
+}
+.screen_header--back{
+    padding-left: 15px;
+}

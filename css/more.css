@@ -1,0 +1,40 @@
+.more_profile .user_profile--colume:first-child i{
+    color: red;
+}
+.more_profile .user_profile--colume:last-child i{
+    font-size: 35px;
+    margin-right: 10px;
+}
+.more_btn{
+    font-size: 20px;
+    border: none;
+}
+
+.more_btn_1{
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.more_btn_li i{
+    font-size: 32px;
+}
+
+:root{
+    --more_btn_li_font_size: 14px;
+}
+.more_btn_li span{
+    margin-top: 5px;
+    height: calc(var(--more_btn_li_font_size) * 2);
+    font-size: var(--more_btn_li_font_size);
+    font-weight: 500;
+    opacity: 0.8;
+}
+.more_btn_2{
+    margin-top: 20px;
+}
+
+.more_btn_text{
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}

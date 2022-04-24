@@ -1,0 +1,39 @@
+
+.find_header_redbtn{
+    top: -7px;
+    right: -7px;
+}
+
+.find_addfnd{
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-bottom: 15px;
+    border-bottom: 0.5px solid rgba(0,0,0,0.15);
+    width: 100%;
+}
+
+.find_addfnd_li{
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+}
+
+:root{
+    --find_addfnd_li_font_size: 18px;
+}
+
+.find_addfnd_li span{
+    height: calc(var(--find_addfnd_li_font_size) * 2);
+    font-size: var(--find_addfnd_li_font_size);
+    display: flex;
+    align-items: center;
+}
+
+.find_addfnd_li i{
+    font-size: 35px;
+}
