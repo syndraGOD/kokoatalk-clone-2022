@@ -25,6 +25,7 @@
 }
 
 .chatings_wbox_you{
+    margin-top: 20px;
     width: 60vw;
     text-align: start;
 }
@@ -34,14 +35,23 @@
     justify-content: flex-end;
 }
 
-.chatings_you{
+.chatings_you_sub{
     display: flex;
     justify-content: flex-start;
+}
+.chatings_you{
     position: relative;
 }
 
-
-.chatings_you span{
+.chatings_you .chatings_time{
+    font-size: 14px;
+    opacity: 0.7;
+    position: absolute;
+    bottom: 5px;
+    right: -65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .chatings_you img{
@@ -80,7 +90,7 @@
 }
 .chatings_me_textbox span{
     display: inline-block;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left: 2px;
     background-color: yellow;
     opacity: 0.9;
@@ -91,4 +101,83 @@
     font-weight: 500;
     opacity: 0.9;
     
+}
+.chatings_me_sub{
+    position: relative;
+}
+.chatings_me_sub .chatings_time{
+    font-size: 14px;
+    opacity: 0.7;
+    position: absolute;
+    bottom: 3px;
+    left: -65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.tail_inputbox{
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
+    height: 50px;
+    padding: 5px 15px;
+    box-sizing: border-box;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tail_whitebox{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    box-sizing: border-box;
+}
+.tail_plusbtnbox{
+    background-color: white;
+    padding: 6px;
+    border: 2px solid rgba(0,0,0, 0.4);
+    border-radius: 30%;
+    color: rgba(0,0,0, 0.4);
+}
+.tail_chatbox{
+    width: 88%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.03);
+    border-radius: 25px;
+    border: 2px solid rgba(0,0,0, 0.2);
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.tail_chatbox h2{
+    margin-left: 10px;
+}
+.tail_chatbox_imagebox{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    right: 3px;
+    font-size: 22px;
+    
+}
+.tail_chatbox_imagebox i:first-child{
+    opacity: 0.6;
+    margin-right: 16px;
+}
+.tail_chatbox_imagebox i:last-child{
+    display: flex;
+    justify-content: center;
+    height: 22px;
+    width: 22px;
+    opacity: 1;
+    padding: 6px;
+    background-color: yellow;
+    border-radius: 50%;
 }
